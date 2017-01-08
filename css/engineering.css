@@ -1,24 +1,30 @@
 /*add text to the bottom of each img in engineering using CSS, replace with JS later*/
-.imageWrapper {
+.row .imageWrapper {
    display: inline-block;
    margin: 10px;
-   width: 400px;
-   height: 400px;
+   width: 30%;
+   height: 95%;
+   top: 0;
+   position: relative;
 
 }
-.imageWrapper img {
-   display: inline-block;
+.row .imageWrapper img {
+   display: inline;
+   left: 0;
+   right: 0;
+   width: 0;
+   bottom: 0;
+   width: 100%;
+   height: same-as-width;
+}
+.row .imageWrapper .text {
+   display: inline;
+   left: 0; right: 0;
+   top: -19; bottom: 0;
    width: 100%;
    height: 100%;
-}
-.imageWrapper .text {
-   display: inline-block;
-   left: 0; right: 0;
-   top: -400; bottom: 0;
-   width: 400px;
-   height: 400px;
    opacity: 0;
-   position: relative;
+   position: absolute;
    color: #ffffff;
    background: #000000;
    text-decoration: none;
@@ -31,6 +37,6 @@
    transition: opacity 500ms;
 
 }
-.imageWrapper:hover .text {
+.row .imageWrapper:hover .text {
     opacity: 0.8;
 }
