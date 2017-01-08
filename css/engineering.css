@@ -1,0 +1,35 @@
+
+/*add text to the bottom of each img in engineering using CSS, replace with JS later*/
+.imageWrapper {
+   margin: 10px;
+   width: 400px;
+   height: 400px;
+
+}
+.imageWrapper img {
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+}
+.imageWrapper .text {
+   top: 0; right: 0;
+   bottom: 0; left: 0;
+   width: 400px;
+   height: 400px;
+   opacity: 0;
+   position: absolute;
+   color: #ffffff;
+   background: #000000;
+   text-decoration: none;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 400px;
+   -webkit-transition: opacity 500ms;
+   -moz-transition: opacity 500ms;
+   -o-transition: opacity 500ms;
+   transition: opacity 500ms;
+
+}
+.imageWrapper:hover .text {
+    opacity: 0.8;
+}
