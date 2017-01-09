@@ -5,8 +5,8 @@
    width: 30%;
    height: same-as-width;
    top: 0;
+   bottom: 0;
    position: relative;
-
 }
 .row .imageWrapper img {
    display: inline;
@@ -31,12 +31,14 @@
    text-align: center;
    vertical-align: middle;
    line-height: 400px;
+   margin: 0px;
    -webkit-transition: opacity 500ms;
    -moz-transition: opacity 500ms;
    -o-transition: opacity 500ms;
    transition: opacity 500ms;
 
 }
+
 .row .imageWrapper:hover .text {
     opacity: 0.8;
 }
