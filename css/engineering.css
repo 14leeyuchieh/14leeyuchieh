@@ -3,7 +3,7 @@
    display: inline-block;
    margin: 10px;
    width: 30%;
-   height: 95%;
+   height: same-as-width;
    top: 0;
    position: relative;
 
@@ -22,7 +22,7 @@
    left: 0; right: 0;
    top: -19; bottom: 0;
    width: 100%;
-   height: 100%;
+   height: same-as-width;
    opacity: 0;
    position: absolute;
    color: #ffffff;
