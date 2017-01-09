@@ -29,8 +29,8 @@
    background: #000000;
    text-decoration: none;
    text-align: center;
-   vertical-align: middle;
    line-height: 400px;
+   word-wrap: break-word;
    margin: auto auto;
    -webkit-transition: opacity 500ms;
    -moz-transition: opacity 500ms;
