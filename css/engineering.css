@@ -9,7 +9,7 @@
    position: relative;
 }
 .row .imageWrapper img {
-   display: inline;
+   display: inline-block;
    left: 0;
    right: 0;
    width: 0;
@@ -18,9 +18,9 @@
    height: same-as-width;
 }
 .row .imageWrapper .text {
-   display: inline;
+   display: inline-block;
    left: 0; right: 0;
-   top: -19; bottom: 0;
+   top: 0; bottom: 0;
    width: 100%;
    height: same-as-width;
    opacity: 0;
@@ -31,7 +31,7 @@
    text-align: center;
    vertical-align: middle;
    line-height: 400px;
-   margin: 0px;
+   margin: auto auto;
    -webkit-transition: opacity 500ms;
    -moz-transition: opacity 500ms;
    -o-transition: opacity 500ms;
