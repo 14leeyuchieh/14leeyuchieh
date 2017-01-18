@@ -1,0 +1,179 @@
+/******************
+/* Personal Website by Yu-chieh
+/******************
+
+
+/********
+/* Section: Formatting used by all html files (Grid, rows, cols configuration)
+/********
+
+
+/* Grid Set-Up*/
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+.container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto; 
+	padding: 0em;
+}
+
+/* 12 column grid */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Box Model */
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-text-size-adjust:none
+}
+
+/* Sets all columns to float to the left along with a padding of 15px*/
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+}
+
+/* Used to space the elements with a padding */
+.wrapper {
+	padding-top: 4.5em;
+	padding-bottom: 4.5em;
+}
+
+/*the actual body*/
+body { 
+	margin: 0;
+    font-size: 16px;
+	font-family: "Source Sans Pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ }
+
+ /* Navigation Menu */
+header {
+	top: 0em;
+	left: 0em;
+	padding-top: 1.0em;
+	padding-bottom: 1.0em;
+	height: 4.8em;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid rgba(192,192,192,0.7);
+}
+header a {
+	color: #AAAAAA;
+
+}
+header a:hover {
+	color: #7FDBFF;
+}
+
+
+#logo { 
+	padding-top: 0em;
+	padding-bottom: 0em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding-left: 5em;
+	width: 100%;
+}
+#logo li {
+	display: inline-block;
+	list-style: none;
+}
+
+#logo li:nth-child(n)  {
+	font-family: "Roboto", sans-serif;
+	padding-top: 1.06250em;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1.06250em;
+	float: right;
+	font-weight: 400;
+}
+
+#logo #name {
+	font-family: "Roboto", sans-serif;
+	font-size: 40px;
+	position: absolute;
+	padding-left: 1em;
+	left: 0;
+	top: 0.5em;
+	color: #7FDBFF;
+}
+
+.row {
+	width: 100%;
+	clear: both; 
+	padding: 0px;
+	margin: 0px;
+}
+
+/*My Project Section*/
+.row2 {
+	background-color: #DDDDDD;
+	color: #111111;
+	text-align: center;
+}
+
+.row2 h2 {
+	font-size: 300%;
+}
+
+.row3 {
+	line-height: 1.2em;
+	background-color: #DDDDDD;
+	color: #111111;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	height: 28em;
+}
+
+.project-wrapper {
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project img {
+	width: 100%;
+	height: auto;
+	object-fit: fill;
+	border-radius: .375em;
+}
+
+.project {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+.project h3 {
+
+}
+
+.project p {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+
+
