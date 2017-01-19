@@ -52,6 +52,18 @@
 	padding-top: 4.5em;
 	padding-bottom: 4.5em;
 }
+/*fonts for headers*/
+h2 {
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 1.1em;
+}
 
 /*the actual body*/
 body { 
@@ -66,13 +78,12 @@ body {
 header {
 	top: 0em;
 	left: 0em;
+	right: 0em;
 	padding-top: 1.0em;
 	padding-bottom: 1.0em;
 	height: 4.8em;
-	position: fixed;
 	width: 100%;
 	background-color: white;
-	border-bottom: 1px solid rgba(192,192,192,0.7);
 }
 header a {
 	color: #AAAAAA;
@@ -91,6 +102,7 @@ header a:hover {
 	padding-left: 5em;
 	width: 100%;
 }
+
 #logo li {
 	display: inline-block;
 	list-style: none;
@@ -123,25 +135,37 @@ header a:hover {
 	margin: 0px;
 }
 
+/*About Me Section*/
+.row4 {
+	background-color: #FFFFFF;
+	color: #111111;
+	text-align: right;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.gray {
+	background-color: #DDDDDD;
+}
 /*My Project Section*/
 .row2 {
-	background-color: #DDDDDD;
-	color: #111111;
 	text-align: center;
 }
 
+
 .row2 h2 {
 	font-size: 300%;
+	margin-top: -15px;
+	z-index: -1;
 }
 
 .row3 {
 	line-height: 1.2em;
-	background-color: #DDDDDD;
-	color: #111111;
 	text-align: center;
 	position: relative;
 	top: 0px;
-	height: 28em;
 }
 
 .project-wrapper {
@@ -158,19 +182,54 @@ header a:hover {
 }
 
 .project {
-	margin-left: 3em;
-	margin-right: 3em;
+	width: 60%;
+	margin: 0 auto;
 }
 
 .project h3 {
-
+	font-size: 15px;
 }
 
 .project p {
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
+}
 
+
+
+/*contact me section*/
+
+.contact_logo_col img{
+	width: 100%;
+	height: auto;
+	object-fit: fill;
+	border-radius: .375em;
+}
+
+.contact_logo_col {
+	margin-left: 3em;
+	margin-right: 3em;
+	top: 2em;
+}
+
+.logo-body {
+	padding: 5em 10em;
+	position: relative;
+}
+
+.no-margin {
+	margin: 0;
+}
+.come-in {
+	width: 40%;
+	left: 0;
+	top: -4%;
+	position: absolute;
+	z-index: 1;
+	background: black;
+	color: white;
+	padding: 2.5em;
+	text-align: right;
 }
 
 
